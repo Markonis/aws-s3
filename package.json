@@ -1,0 +1,23 @@
+{
+  "name": "@markonis/aws-s3",
+  "version": "0.0.1",
+  "description": "A simple opinionated wrapper around the AWS S3 service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "aws",
+    "s3"
+  ],
+  "author": "Marko Pavlovic",
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "@markonis/options": "0.0.1",
+    "aws-sdk": "^2.28.0"
+  }
+}
